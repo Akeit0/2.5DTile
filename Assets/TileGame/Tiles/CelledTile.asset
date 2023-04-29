@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8c036bdffd4d9e99963c82c5008b93, type: 3}
+  m_Name: CelledTile
+  m_EditorClassIdentifier: 
+  Texture: {fileID: 2800000, guid: 7d284d0a6ea3bbd4dbc97a8f5b557111, type: 3}
+  PixelPerUnit: 16
+  TileDataArray:
+  - Name: 
+    Collision: 0
+  - Name: Soil
+    Collision: 1
+  - Name: Grass
+    Collision: 1
+  - Name: GrassSlopeBottomLeft
+    Collision: 2
+  - Name: GrassSlopeBottomRight
+    Collision: 3
+  - Name: GrassSlopeTopLeft
+    Collision: 4
+  - Name: GrassSlopeTopRight
+    Collision: 5
+  - Name: Wood1
+    Collision: 1
+  - Name: Leaf
+    Collision: 1
+  - Name: WoodSlopeBottomLeft
+    Collision: 2
+  - Name: WoodSlopeBottomRight
+    Collision: 3
+  - Name: Torch
+    Collision: 0
+  - Name: Stone
+    Collision: 1
+  - Name: DiamondOre
+    Collision: 1
+  - Name: CupperOre
+    Collision: 1
+  - Name: IronOre
+    Collision: 1
+  - Name: Coal
+    Collision: 1
+  - Name: WoodWall
+    Collision: 1
+  - Name: StoneWall
+    Collision: 1
+  - Name: Wood2
+    Collision: 0
+  - Name: Wood2
+    Collision: 0
+  - Name: Glass
+    Collision: 1
